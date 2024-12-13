@@ -2,7 +2,7 @@
 # Proxy For Edukasi & Imclass
 
 # Link Hosting Kalian
-repo="https://raw.githubusercontent.com/xcozyx/xcozyxsc/main/"
+repo="https://raw.githubusercontent.com/Freetunnel/hpp/main/"
 
 wget -O /usr/local/bin/ws-dropbear ${repo}sshws/ws-dropbear
 chmod +x /usr/local/bin/ws-dropbear
@@ -10,7 +10,7 @@ chmod +x /usr/local/bin/ws-dropbear
 # Installing Service
 cat > /etc/systemd/system/ws-nontls.service << END
 [Unit]
-Description=Python Proxy Mod By xcozyx
+Description=Python Proxy Mod By FREETUNNEL
 Documentation=https://t.me/abecasdee13
 After=network.target nss-lookup.target
 
@@ -38,7 +38,7 @@ chmod +x /usr/local/bin/ws-ovpn
 # Installing Service
 cat > /etc/systemd/system/ws-ovpn.service << END
 [Unit]
-Description=Python Proxy Mod By xcozyx
+Description=Python Proxy Mod By FREETUNNEL
 Documentation=https://t.me/abecasdee13
 After=network.target nss-lookup.target
 
@@ -65,7 +65,7 @@ chmod +x /usr/local/bin/ws-stunnel
 # Installing Service
 cat > /etc/systemd/system/ws-stunnel.service << END
 [Unit]
-Description=Python Proxy Mod By xcozyx
+Description=Python Proxy Mod By FREETUNNEL
 Documentation=https://t.me/abecasdee13
 After=network.target nss-lookup.target
 
