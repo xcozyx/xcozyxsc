@@ -2,7 +2,7 @@
 # Proxy For Edukasi & Imclass
 
 # Link Hosting Kalian
-repo="https://raw.githubusercontent.com/Freetunnel/hpp/main/"
+repo="https://raw.githubusercontent.com/xcozyx/xcozyxsc/main/"
 
 wget -O /usr/local/bin/ws-dropbear ${repo}sshws/ws-dropbear
 chmod +x /usr/local/bin/ws-dropbear
